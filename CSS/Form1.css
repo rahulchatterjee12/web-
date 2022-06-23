@@ -1,0 +1,38 @@
+input[type=text],input[type=email],input[type=password],input[type=number],input[type=date],input[type=city],select{
+width: 100%;
+padding: 15px 20px;
+margin: 5px ;
+display: inline;
+border: 3px solid black;
+box-sizing: border-box;
+}
+div{
+    width: 500px;
+    padding: 0px 50px;
+    border: 5px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+    background-image: linear-gradient(rgb(229, 255, 0),rgb(101, 9, 104),rgb(233, 22, 22));
+    padding-bottom: 20px;
+    margin: 50px auto;    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+}
+.btn{
+    border: 1px solid rgb(68, 20, 180);
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin:  0px 170px;
+    color: rgb(68, 20, 180);
+    transition: 0.8s;
+    overflow: hidden;
+}
+.btn:hover{
+    color:#000;
+}
